@@ -1,17 +1,14 @@
 hdkey
 =====
 
-[![NPM Package](https://img.shields.io/npm/v/hdkey.svg?style=flat-square)](https://www.npmjs.org/package/hdkey)
-[![build status](https://secure.travis-ci.org/cryptocoinjs/hdkey.svg)](http://travis-ci.org/cryptocoinjs/hdkey)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
-
 A JavaScript component for [BIP32](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)(hierarchical deterministic keys).
 
+***This is a fork of the original project*** that removes some Bitcoin-only details and is browser compatible.
 
 Installation
 ------------
 
-    npm i --save hdkey
+    npm i --save @herajs/hdkey
 
 
 Usage
@@ -20,7 +17,7 @@ Usage
 **example:**
 
 ```js
-var HDKey = require('hdkey')
+var HDKey = require('@herajs/hdkey')
 var seed = 'a0c42a9c3ac6abf2ba6a9946ae83af18f51bf1c9fa7dacc4c92513cc4dd015834341c775dcd4c0fac73547c5662d81a9e9361a0aac604a73a321bd9103bce8af'
 var hdkey = HDKey.fromMasterSeed(Buffer.from(seed, 'hex'))
 console.log(hdkey.privateExtendedKey)
