@@ -1,6 +1,6 @@
 {
   "name": "@herajs/hdkey",
-  "version": "11.1.1",
+  "version": "11.1.2",
   "description": "Bitcoin BIP32 hierarchical deterministic keys",
   "main": "lib/hdkey.js",
   "types": "lib/hdkey.d.ts",
@@ -24,21 +24,21 @@
   "homepage": "https://github.com/aergoio/hdkey",
   "devDependencies": {
     "bigi": "^1.1.0",
-    "create-hmac": "^1.1.7",
     "coveralls": "^3.0.4",
     "ecurve": "^1.0.0",
     "istanbul": "^0.4.5",
     "mocha": "^6.1.4",
     "mocha-lcov-reporter": "0.0.1",
     "mochify": "^6.3.0",
-    "randombytes": "^2.1.0",
     "secure-random": "^1.0.0",
     "standard": "^7.1.1"
   },
   "dependencies": {
     "bs58check": "^2.1.2",
     "safe-buffer": "^5.1.1",
-    "secp256k1": "^3.0.1"
+    "secp256k1": "^3.0.1",
+    "create-hmac": "^1.1.7",
+    "randombytes": "^2.1.0"
   },
   "scripts": {
     "lint": "standard",
