@@ -1,6 +1,6 @@
 {
   "name": "@herajs/hdkey",
-  "version": "1.1.1",
+  "version": "11.1.1",
   "description": "Bitcoin BIP32 hierarchical deterministic keys",
   "main": "lib/hdkey.js",
   "types": "lib/hdkey.d.ts",
