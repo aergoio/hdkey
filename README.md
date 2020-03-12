@@ -108,14 +108,6 @@ Getter/Setter of the `hdkey`'s private key, stored as a buffer.
 
 Getter/Setter of the `hdkey`'s public key, stored as a buffer.
 
-### `hdkey.privateExtendedKey`
-
-Getter/Setter of the `hdkey`'s `xprv`, stored as a string.
-
-### `hdkey.publicExtendedKey`
-
-Getter/Setter of the `hdkey`'s `xpub`, stored as a string.
-
 References
 ----------
 - https://github.com/bitcoinjs/bitcoinjs-lib/blob/master/src/hdnode.js
